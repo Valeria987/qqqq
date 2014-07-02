@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.label.text = _value;
+    self.image.image = _img;
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +27,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+/*
+- (IBAction)switch:(UISwitch *)sender forEvent:(UIEvent *)event {
+    
+}
+ */
+- (IBAction)switch:(id)sender {
+    if (switchOutlet.on) {
+        self.view.backgroundColor = [UIColor redColor];
+    } else {
+        self.view.backgroundColor = [UIColor whiteColor];
+    }
+}
 @end

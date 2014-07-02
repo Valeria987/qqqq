@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    IBOutlet UISwitch *switchOutlet;
+}
+@property (weak, nonatomic) IBOutlet UILabel *label;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+
+
+- (IBAction)switch:(id)sender;
+
+@property NSString *value;
+@property UIImage *img;
 
 @end
