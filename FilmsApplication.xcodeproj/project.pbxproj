@@ -28,6 +28,9 @@
 		2361A8181962C8840070D980 /* FilmsApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361A8171962C8840070D980 /* FilmsApplicationTests.m */; };
 		2361A8231962CC470070D980 /* TableViewControllerAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361A8221962CC470070D980 /* TableViewControllerAll.m */; };
 		2361A8261962CC630070D980 /* TableViewControllerBest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2361A8251962CC630070D980 /* TableViewControllerBest.m */; };
+		23DCF171196561B5000C2C5B /* Main in Resources */ = {isa = PBXBuildFile; fileRef = 23DCF16F196561B5000C2C5B /* Main */; };
+		23DCF173196561F2000C2C5B /* Main1 in Resources */ = {isa = PBXBuildFile; fileRef = 23DCF172196561F2000C2C5B /* Main1 */; };
+		23E4292D19656BF900A6B1C2 /* KabinetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E4292C19656BF900A6B1C2 /* KabinetTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,10 @@
 		2361A8221962CC470070D980 /* TableViewControllerAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerAll.m; sourceTree = "<group>"; };
 		2361A8241962CC630070D980 /* TableViewControllerBest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerBest.h; sourceTree = "<group>"; };
 		2361A8251962CC630070D980 /* TableViewControllerBest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerBest.m; sourceTree = "<group>"; };
+		23DCF170196561B5000C2C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main; sourceTree = "<group>"; };
+		23DCF172196561F2000C2C5B /* Main1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Main1; path = ../../Main1; sourceTree = "<group>"; };
+		23E4292B19656BF900A6B1C2 /* KabinetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KabinetTableViewController.h; sourceTree = SOURCE_ROOT; };
+		23E4292C19656BF900A6B1C2 /* KabinetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KabinetTableViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +143,10 @@
 				2361A7FB1962C8840070D980 /* AppDelegate.h */,
 				2361A7FC1962C8840070D980 /* AppDelegate.m */,
 				2361A7FE1962C8840070D980 /* Main.storyboard */,
+				23E4292B19656BF900A6B1C2 /* KabinetTableViewController.h */,
+				23E4292C19656BF900A6B1C2 /* KabinetTableViewController.m */,
+				23DCF172196561F2000C2C5B /* Main1 */,
+				23DCF16F196561B5000C2C5B /* Main */,
 				2361A8011962C8840070D980 /* ViewController.h */,
 				2361A8021962C8840070D980 /* ViewController.m */,
 				2361A8041962C8840070D980 /* Images.xcassets */,
@@ -254,10 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				232E0ED31962D97F0041DAD4 /* 4.jpg in Resources */,
+				23DCF173196561F2000C2C5B /* Main1 in Resources */,
 				232E0ED11962D97F0041DAD4 /* 2.jpg in Resources */,
 				232E0ECF1962D97F0041DAD4 /* 0.jpg in Resources */,
 				2361A8051962C8840070D980 /* Images.xcassets in Resources */,
 				2361A7F71962C8840070D980 /* InfoPlist.strings in Resources */,
+				23DCF171196561B5000C2C5B /* Main in Resources */,
 				2361A8001962C8840070D980 /* Main.storyboard in Resources */,
 				232E0ED21962D97F0041DAD4 /* 3.jpg in Resources */,
 				232E0ED01962D97F0041DAD4 /* 1.jpg in Resources */,
@@ -283,6 +296,7 @@
 				2361A7FD1962C8840070D980 /* AppDelegate.m in Sources */,
 				2361A7F91962C8840070D980 /* main.m in Sources */,
 				2361A8231962CC470070D980 /* TableViewControllerAll.m in Sources */,
+				23E4292D19656BF900A6B1C2 /* KabinetTableViewController.m in Sources */,
 				2361A8261962CC630070D980 /* TableViewControllerBest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +342,14 @@
 				2361A8151962C8840070D980 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23DCF16F196561B5000C2C5B /* Main */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23DCF170196561B5000C2C5B /* Base */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
